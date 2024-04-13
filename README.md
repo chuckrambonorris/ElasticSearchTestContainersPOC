@@ -13,6 +13,14 @@
 - The integration test is located in `BaseElasticTestContainers`
 - If you are using an IDE such as IntelliJ, you should automatically be provided an option to run the test
 
+### Build
+
+Use gradew to build/test.
+
+```
+./gradlew clean build
+```
+
 #### Details
 
 Testcontainers are used for integration testing. The test `persistProduct` seeds some data, makes a REST call to get the
