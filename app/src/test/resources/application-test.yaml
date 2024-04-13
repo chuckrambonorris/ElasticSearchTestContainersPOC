@@ -1,0 +1,13 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  main:
+    web-application-type: reactive
+logging:
+  level:
+    root: INFO

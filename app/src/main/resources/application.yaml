@@ -1,0 +1,11 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      hostport: "localhost:9200"
+  main:
+    web-application-type: reactive
